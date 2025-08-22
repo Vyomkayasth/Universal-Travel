@@ -1,8 +1,57 @@
-# React + Vite
+# Universal Travel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and modern travel-themed web application built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+##  Overview
+Universal Travel is a dynamic, client-oriented travel website intended to provide users with essential information on destinations, booking options, and seamless navigation. The project showcases pages like Home, About, Contact, Flights, Locations, Register, and more — all powered by React and bundled via Vite for quick development and deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+- SPA-style navigation: Home, About, Contact, Flights, Locations, Register, and Sample pages.
+- Smooth page transitions and responsive layout.
+- Lightweight and performant setup using Vite.
+- Basic form handling for user registration and contact submissions.
+- Easily extensible for integration with APIs or backend services.   
+
+##  Stack & Dependencies
+- **Framework**: React (via Vite)
+- **Bundler**: Vite
+- **HTML/CSS**: Structured with custom styles
+- **Scripts**: Standard JavaScript and jQuery (as seen in the repo)
+
+##  Getting Started
+
+### Prerequisites
+- **Node.js** (latest LTS recommended)
+- **npm** or **yarn**
+
+### Installation Steps:
+git clone https://github.com/Vyomkayasth/Universal-Travel.git
+cd Universal-Travel
+npm install
+npm run dev
+
+
+To build for production:
+npm run build
+# Serve with a static server, e.g.:
+npm install -g serve
+serve dist
+
+Universal-Travel/
+│
+├── public/           # Static assets (images, index.html template)
+├── src/              # React components and styles
+├── README.md         # <-- You’re here
+├── index.html
+├── about.html
+├── contact.html
+├── flight.html
+├── locations.html
+├── register.html
+├── sample.html
+├── download.jpg
+├── jquery.js
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── vite.config.js
